@@ -5,6 +5,7 @@ variable "envtags" {
 
 variable "job_queue_name" {
   type = string
+  description = "job name queuefor the batch"
 }
 
 variable "job_queue_state" {
